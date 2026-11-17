@@ -1,0 +1,1998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeSense — Design Thinking Portfolio | SRMIST</title>
+  <meta name="description" content="Academic Design Thinking Portfolio for SafeSense: A student-centred wellbeing concept developed at SRM Institute of Science and Technology, Kattankulathur." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Academic Header & Navigation -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a href="#top" class="brand" aria-label="SafeSense Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="14" fill="#234234"/>
+            <path d="M10 17.5C10 13.8 13.1 11 16.5 11C19.9 11 22 13.5 22 16.5C22 19.5 19.5 21.5 16.2 21.5C14.1 21.5 12.4 20.5 11.5 19" stroke="#D5E8DC" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="3" fill="#F2C6B4"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>SafeSense</strong>
+          <small>21DCS201P · Design Thinking Portfolio</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary sections">
+        <a href="#overview">Overview</a>
+        <a href="#chapter-discover">Discover (01–03)</a>
+        <a href="#chapter-understand">Understand (04–08)</a>
+        <a href="#chapter-define">Define (09)</a>
+        <a href="#chapter-explore">Decide (11–12)</a>
+        <a href="#chapter-build">Build (10)</a>
+        <a href="#chapter-sustain">Sustain (13)</a>
+        <a href="#team">Team</a>
+        <a href="https://safesense-app-refinement.netlify.app" target="_blank" rel="noopener noreferrer" class="nav-cta">
+          Live Prototype ↗
+        </a>
+      </nav>
+    </div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+  </header>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="eyebrow-badge">
+            <span class="dot"></span>
+            SRM Institute of Science &amp; Technology, Kattankulathur · Course 21DCS201P
+          </div>
+          <h1>SafeSense: A Low-Pressure Space for Student Emotional Reflection</h1>
+          <p class="hero-tagline">
+            Check in quietly. Put feelings into words. Choose your own pathway to support.
+          </p>
+          <p class="hero-lead">
+            An end-to-end academic design-thinking case study documenting how a 9-member engineering student team framed everyday campus emotional challenges and built an interactive, privacy-first browser prototype.
+          </p>
+
+          <div class="hmw-callout">
+            <span class="hmw-label">Central Design Question (How Might We)</span>
+            <p>“How might we create a low-pressure, student-friendly space that helps college students recognise what they are feeling, reflect on their wellbeing and choose an appropriate pathway to support?”</p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="https://safesense-app-refinement.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Launch SafeSense Prototype ↗
+            </a>
+            <a href="#chapter-discover" class="btn btn-secondary">
+              Explore All 13 Activities ↓
+            </a>
+          </div>
+
+          <div class="hero-meta-strip">
+            <div>
+              <span class="meta-k">Institution</span>
+              <span class="meta-v">SRMIST, Kattankulathur</span>
+            </div>
+            <div>
+              <span class="meta-k">Domain</span>
+              <span class="meta-v">Student Wellbeing</span>
+            </div>
+            <div>
+              <span class="meta-k">Methodology</span>
+              <span class="meta-v">13 Structured DT Activities</span>
+            </div>
+            <div>
+              <span class="meta-k">Team</span>
+              <span class="meta-v">9 Student Designers</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="visual-card">
+            <div class="visual-card-header">
+              <span>System Boundary &amp; Privacy Architecture</span>
+              <span class="status-pill">Conceptual Design</span>
+            </div>
+            <!-- Original SVG System Architecture & Consent Diagram -->
+            <svg viewBox="0 0 460 390" class="diagram-svg" role="img" aria-label="SafeSense privacy and consent boundary diagram">
+              <defs>
+                <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+                  <path d="M0,0 L8,4 L0,8 Z" fill="#234234"/>
+                </marker>
+                <marker id="arrowPeach" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+                  <path d="M0,0 L8,4 L0,8 Z" fill="#B85D43"/>
+                </marker>
+              </defs>
+
+              <!-- Student Private Vault -->
+              <rect x="20" y="18" width="420" height="125" rx="16" fill="#EBF3EE" stroke="#3D6B56" stroke-width="1.5"/>
+              <text x="38" y="42" font-family="JetBrains Mono, monospace" font-size="11" fill="#234234" font-weight="600">01 · STUDENT CONTROLLED SPACE (PRIVATE BY DEFAULT)</text>
+              <text x="38" y="64" font-family="Plus Jakarta Sans, sans-serif" font-size="13" fill="#1B2B23" font-weight="700">Individual Student Experience</text>
+              <rect x="38" y="78" width="115" height="46" rx="10" fill="#FFFFFF" stroke="#B7CEBF"/>
+              <text x="95" y="98" text-anchor="middle" font-size="11" font-weight="600" fill="#234234">Daily Mood</text>
+              <text x="95" y="113" text-anchor="middle" font-size="9.5" fill="#52665C">Private check-ins</text>
+
+              <rect x="165" y="78" width="125" height="46" rx="10" fill="#FFFFFF" stroke="#B7CEBF"/>
+              <text x="227" y="98" text-anchor="middle" font-size="11" font-weight="600" fill="#234234">Sense Guide</text>
+              <text x="227" y="113" text-anchor="middle" font-size="9.5" fill="#52665C">Built-in prompts</text>
+
+              <rect x="302" y="78" width="120" height="46" rx="10" fill="#FFFFFF" stroke="#B7CEBF"/>
+              <text x="362" y="98" text-anchor="middle" font-size="11" font-weight="600" fill="#234234">Together Space</text>
+              <text x="362" y="113" text-anchor="middle" font-size="9.5" fill="#52665C">Peer topic rooms</text>
+
+              <!-- Arrows down with explicit gates -->
+              <line x1="130" y1="143" x2="130" y2="205" stroke="#234234" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowGreen)"/>
+              <rect x="52" y="160" width="156" height="28" rx="14" fill="#234234"/>
+              <text x="130" y="178" text-anchor="middle" font-size="10" fill="#FAF7F2" font-weight="600">Explicit Opt-In Consent Gate</text>
+
+              <line x1="335" y1="143" x2="335" y2="205" stroke="#B85D43" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowPeach)"/>
+              <rect x="255" y="160" width="160" height="28" rx="14" fill="#F6DFD6" stroke="#D89A86"/>
+              <text x="335" y="178" text-anchor="middle" font-size="10" fill="#7D3521" font-weight="600">De-identified Aggregation</text>
+
+              <!-- Counselling Committee Node -->
+              <rect x="20" y="212" width="202" height="118" rx="16" fill="#FFFFFF" stroke="#3D6B56" stroke-width="1.5"/>
+              <text x="34" y="235" font-family="JetBrains Mono, monospace" font-size="10" fill="#3D6B56" font-weight="600">02 · COUNSELLING CELL</text>
+              <text x="34" y="255" font-size="12.5" font-weight="700" fill="#1B2B23">Support Request Only</text>
+              <text x="34" y="274" font-size="10.5" fill="#44574E">• Receives request ONLY when</text>
+              <text x="42" y="288" font-size="10.5" fill="#44574E">student submits consent.</text>
+              <text x="34" y="305" font-size="10.5" fill="#44574E">• Proposed pathway (not live).</text>
+
+              <!-- Administration Node -->
+              <rect x="238" y="212" width="202" height="118" rx="16" fill="#F4F1FA" stroke="#8C7AA9" stroke-width="1.5"/>
+              <text x="252" y="235" font-family="JetBrains Mono, monospace" font-size="10" fill="#5A4A75" font-weight="600">03 · ADMINISTRATION</text>
+              <text x="252" y="255" font-size="12.5" font-weight="700" fill="#1B2B23">Aggregate Trends Only</text>
+              <text x="252" y="274" font-size="10.5" fill="#44574E">• Never sees private journals</text>
+              <text x="260" y="288" font-size="10.5" fill="#44574E">or identifiable chats.</text>
+              <text x="252" y="305" font-size="10.5" fill="#44574E">• Conceptual future layer.</text>
+
+              <!-- Bottom Disclaimer -->
+              <rect x="20" y="344" width="420" height="32" rx="8" fill="#F2EDE4"/>
+              <text x="230" y="364" text-anchor="middle" font-size="10.5" fill="#4E5D55" font-weight="500">
+                Academic Integrity Note: Institutional integration is proposed, not currently active.
+              </text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2, 3, 4. OVERVIEW, WHY WELLBEING & DESIGN PRINCIPLES -->
+    <section id="overview" class="section-pad bg-tint">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="chapter-tag">Project Foundation</span>
+          <h2>Why Student Wellbeing &amp; How We Approached It</h2>
+          <p>
+            Grounded in the SRMIST Design Thinking &amp; Methodology curriculum (21DCS201P), SafeSense moves from human-centred problem framing to a working software prototype without overclaiming clinical or institutional status.
+          </p>
+        </div>
+
+        <div class="overview-grid">
+          <article class="editorial-card reveal">
+            <span class="card-num">01 · Context &amp; Problem Statement</span>
+            <h3>The Everyday Campus Silence</h3>
+            <p>
+              University students frequently navigate overlapping pressures—semester exams, placement preparation, sleep disruption, homesickness, financial worries, and social isolation. While formal campus counselling exists, many students hesitate to reach out early because they feel judged, struggle to articulate what they are experiencing, or assume their distress is “not serious enough” for an appointment.
+            </p>
+            <div class="callout-strip">
+              <strong>Core Design Gap:</strong> Between silent self-struggle and formal clinical counselling, students lack a gentle, stigma-free middle step to notice patterns and express feelings safely.
+            </div>
+          </article>
+
+          <article class="editorial-card reveal">
+            <span class="card-num">02 · Governance &amp; Privacy Boundaries</span>
+            <h3>Three-Tier Consent Architecture</h3>
+            <ul class="clean-list">
+              <li>
+                <strong>Student Autonomy First:</strong> Students retain control over what they log, reflect on, and choose to disclose.
+              </li>
+              <li>
+                <strong>Deliberate Counsellor Handoff:</strong> Counsellors receive a support request only when a student explicitly fills out a request and consents.
+              </li>
+              <li>
+                <strong>Zero-Surveillance Administration:</strong> College administration would only view privacy-protected, aggregated wellbeing trends—never private check-in text or identifiable conversations.
+              </li>
+              <li>
+                <strong>Honest Current Status:</strong> None of these institutional integrations are live or adopted by SRMIST yet; they represent our target system design.
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Four Design Principles -->
+        <div class="principles-block reveal">
+          <div class="subhead-row">
+            <h3>Core Design Principles Guiding SafeSense</h3>
+            <span>Derived from Dieter Rams’ Good Design &amp; Human-Centred Methodology</span>
+          </div>
+          <div class="principles-grid">
+            <div class="principle-card">
+              <span class="p-index">P1</span>
+              <h4>Low-Friction Emotional Entry</h4>
+              <p>Replace intimidating clinical intake forms with a five-point mood check-in and familiar campus tags (Exams, Sleep, Placements, Homesick).</p>
+            </div>
+            <div class="principle-card">
+              <span class="p-index">P2</span>
+              <h4>Guided Articulation Without Diagnosis</h4>
+              <p>Offer gentle conversational prompts (“Sense”) to help students name feelings when words fail, while explicitly stating it is not a therapist.</p>
+            </div>
+            <div class="principle-card">
+              <span class="p-index">P3</span>
+              <h4>Consent-Gated Escalation</h4>
+              <p>Keep personal reflections private by default; human counselling outreach happens only through an intentional, student-initiated step.</p>
+            </div>
+            <div class="principle-card">
+              <span class="p-index">P4</span>
+              <h4>Epistemic &amp; Academic Honesty</h4>
+              <p>Clearly separate built prototype functionality from conceptual features, unvalidated hypotheses, and proposed future institutional workflows.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course Syllabus Alignment Matrix -->
+        <div class="curriculum-strip reveal">
+          <div class="subhead-row">
+            <h3>Alignment with 21DCS201P Syllabus &amp; Course Frameworks</h3>
+            <span>Mapping semester theory to completed, reconstructed, and proposed project work</span>
+          </div>
+          <div class="tags-cloud">
+            <span class="course-pill done">Design Frameworks (IDEO / 5-Stage)</span>
+            <span class="course-pill done">Engineering Problem-Solving (SCOPES)</span>
+            <span class="course-pill done">Stakeholder &amp; Mendelow Mapping</span>
+            <span class="course-pill done">Composite Persona &amp; Dual Journey Maps</span>
+            <span class="course-pill done">Empathy Mapping (with Evidence Audit)</span>
+            <span class="course-pill done">Problem Sizing &amp; PESTEL Framework</span>
+            <span class="course-pill done">Divergent &amp; Convergent Ideation</span>
+            <span class="course-pill done">Storyboarding &amp; Working Prototype</span>
+            <span class="course-pill done">Business Model Canvas &amp; Value Proposition</span>
+            <span class="course-pill proposed">Usability Testing &amp; User Assessment (Proposed)</span>
+            <span class="course-pill proposed">Competitor / Complementor Study (Proposed)</span>
+            <span class="course-pill proposed">IP, Financial Forecasting &amp; Risk Scenarios (Next Steps)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEMESTER ROADMAP NAVIGATION -->
+    <section class="roadmap-bar">
+      <div class="container">
+        <div class="roadmap-header">
+          <span class="chapter-tag">Complete Semester Arc</span>
+          <h2>All 13 Design Thinking Activities Organised Into 6 Chapters</h2>
+        </div>
+        <div class="chapter-nav-cards">
+          <a href="#chapter-discover" class="chap-card">
+            <span class="chap-num">Chapter 01</span>
+            <strong>Discover</strong>
+            <small>Activities 01, 02, 03</small>
+          </a>
+          <a href="#chapter-understand" class="chap-card">
+            <span class="chap-num">Chapter 02</span>
+            <strong>Understand</strong>
+            <small>Activities 04, 05, 06, 07, 08</small>
+          </a>
+          <a href="#chapter-define" class="chap-card">
+            <span class="chap-num">Chapter 03</span>
+            <strong>Define</strong>
+            <small>Activity 09</small>
+          </a>
+          <a href="#chapter-explore" class="chap-card">
+            <span class="chap-num">Chapter 04</span>
+            <strong>Explore &amp; Decide</strong>
+            <small>Activities 11, 12</small>
+          </a>
+          <a href="#chapter-build" class="chap-card">
+            <span class="chap-num">Chapter 05</span>
+            <strong>Build</strong>
+            <small>Activity 10</small>
+          </a>
+          <a href="#chapter-sustain" class="chap-card">
+            <span class="chap-num">Chapter 06</span>
+            <strong>Sustain</strong>
+            <small>Activity 13</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 1: DISCOVER — ACTIVITIES 01–03
+    ====================================================================== -->
+    <section id="chapter-discover" class="chapter-section section-pad">
+      <div class="container">
+        <div class="chapter-banner reveal">
+          <span class="chapter-kicker">Chapter 01 · Inspiration &amp; Framing</span>
+          <h2>Discover — Activities 01 to 03</h2>
+          <p>Identifying a meaningful human problem, cultivating visual thinking, and establishing psychological safety for creative ideation.</p>
+        </div>
+
+        <!-- ACTIVITY 01 -->
+        <article id="activity-01" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 01</span>
+            <h3>Problem Identification</h3>
+            <span class="act-status">Completed · Problem Framing</span>
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>Identify a specific user group experiencing everyday health or wellbeing challenges, uncover three daily difficulties they face, select the single most critical problem, brainstorm three solution directions, and propose one named concept with a one-line tagline—without jumping prematurely to hardware.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>Using the SCOPES framing rubric (Situation, Constraints, Objectives, People, Estimates, Scope), our 9-member team focused on college students navigating academic stress, anxiety, loneliness, and hesitation to ask for help. We compared three candidate directions before defining SafeSense.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Rather than building an invasive biometric wearable or clinical diagnostic tool, we recognised that the primary bottleneck for students is emotional friction: not knowing how to name feelings or take a safe first step toward support.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Defined our initial concept <strong>SafeSense</strong> with the tagline: <em>“A gentle, student-friendly space to recognise feelings, reflect safely, and choose support.”</em> Learned that framing the right “How Might We” question prevents over-engineered solutions.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Established the non-diagnostic, student-controlled scope that anchored our mind map (Activity 04), persona (Activity 05), and eventual browser-based prototype architecture (Activity 10).</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Problem Framing Diagram -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Problem Framing &amp; Concept Selection Diagram</h4>
+              <span>SCOPES &amp; Solution Filtering</span>
+            </div>
+            <div class="pf-diagram">
+              <div class="pf-col">
+                <div class="pf-col-title">Target User Group</div>
+                <div class="pf-node primary-node">
+                  <strong>College &amp; University Students</strong>
+                  <p>Undergraduate peers balancing academics, hostel/commute transitions, placements, and personal expectations.</p>
+                </div>
+                <div class="pf-sublist">
+                  <div class="pf-mini"><strong>Challenge 1:</strong> Academic &amp; exam pressure causing quiet burnout</div>
+                  <div class="pf-mini"><strong>Challenge 2:</strong> Loneliness, homesickness &amp; fear of peer judgement</div>
+                  <div class="pf-mini selected"><strong>Selected Core Problem:</strong> Emotional overwhelm paired with difficulty expressing feelings or seeking timely support</div>
+                </div>
+              </div>
+
+              <div class="pf-arrow" aria-hidden="true">→</div>
+
+              <div class="pf-col">
+                <div class="pf-col-title">Three Solution Directions Explored</div>
+                <div class="pf-mini muted">
+                  <strong>Direction A — Stress-Monitoring Wearable</strong>
+                  <p>Rejected: High hardware cost, sensor inaccuracy, and privacy anxiety around continuous tracking.</p>
+                </div>
+                <div class="pf-mini muted">
+                  <strong>Direction B — Direct Counselling Booking Portal</strong>
+                  <p>Rejected: Too intimidating as a first step when a student is unsure what they are even feeling.</p>
+                </div>
+                <div class="pf-mini selected">
+                  <strong>Direction C — SafeSense Reflective Web Companion (Selected)</strong>
+                  <p>Low-pressure browser space combining quick mood check-ins, guided prompts, peer rooms, and opt-in counsellor handoff.</p>
+                </div>
+              </div>
+
+              <div class="pf-arrow" aria-hidden="true">→</div>
+
+              <div class="pf-col">
+                <div class="pf-col-title">Initial Concept &amp; Tagline</div>
+                <div class="pf-node forest-node">
+                  <span class="mini-tag">Concept Identity</span>
+                  <strong>SafeSense</strong>
+                  <p class="tagline-quote">“Your quiet space to check in, put feelings into words, and reach support at your own pace.”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ACTIVITY 02 -->
+        <article id="activity-02" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 02</span>
+            <h3>Visualisation</h3>
+            <span class="act-status">Completed · Individual Future-Vision Exercise</span>
+          </div>
+
+          <div class="honesty-banner">
+            <strong>Methodological Clarification:</strong> Activity 02 was an <em>individual future-vision exercise</em> (“Where do you see yourself 10 years from now?”), not a SafeSense product-feature planning session. In keeping with strict academic honesty, individual team members’ personal drawings are not fabricated here.
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“Where do you see yourself 10 years from now?” Each student individually created a visual chart representing personal and professional aspirations using imagery, symbols, and spatial connections rather than paragraphs of text, then shared within the team.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>All nine members independently sketched 10-year life and career maps on chart paper, presented them inside our group without judgement, and selected one representative chart to present to the class based on clarity and visual storytelling.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Design thinking requires translating abstract internal states into concrete visual artefacts. Practising non-verbal visual expression on personal goals built empathy for how hard it is to articulate complex emotions in plain sentences.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Team members experienced firsthand how visual metaphors communicate nuance faster than text, and how non-judgemental peer sharing builds psychological safety within a newly formed 9-person group.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Directly shaped SafeSense’s UI philosophy: instead of forcing students to write long essays about distress, the prototype uses visual emoji scales, quick concern tags, and weekly mood bar charts to make emotional patterns visible at a glance.</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Future-Vision Framework -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Visual Thinking &amp; Future-Vision Framework</h4>
+              <span>Course Methodology Diagram</span>
+            </div>
+            <div class="vision-flow">
+              <div class="vf-step">
+                <span class="vf-num">Step 01</span>
+                <strong>Internal Aspiration</strong>
+                <p>Unstructured thoughts, values, and 10-year personal/career directions.</p>
+              </div>
+              <div class="vf-conn">→</div>
+              <div class="vf-step">
+                <span class="vf-num">Step 02</span>
+                <strong>Visual Translation</strong>
+                <p>Symbols, colour, and spatial layout replace essay writing (“Make us SEE it”).</p>
+              </div>
+              <div class="vf-conn">→</div>
+              <div class="vf-step">
+                <span class="vf-num">Step 03</span>
+                <strong>Safe Group Sharing</strong>
+                <p>Peers listen without critique, uncovering shared human values and empathy.</p>
+              </div>
+              <div class="vf-conn">→</div>
+              <div class="vf-step highlight">
+                <span class="vf-num">Transfer to SafeSense</span>
+                <strong>Visual Emotional Reflection</strong>
+                <p>Applied visual check-ins &amp; mood graphs so students see their emotional patterns clearly.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ACTIVITY 03 -->
+        <article id="activity-03" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 03</span>
+            <h3>Creativity</h3>
+            <span class="act-status">Completed · Creative Fluency &amp; Peer Critique</span>
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>Overcome creative blocks through timed constraint exercises (such as the 30 Circles Challenge) and structured “Pitch, Question &amp; Build” peer feedback rounds while practising core brainstorming norms.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We practised rapid visual association under time constraints and conducted structured 3–4 minute problem pitches followed by “Have you considered…?” and “What if the user…?” questioning rounds.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Early self-censorship kills unconventional ideas, especially on sensitive topics like mental health. Separating idea generation from critique allowed our 9-member team to explore gentle, non-clinical ways to support students.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Shifted team mindset from “defending our first idea” to “questioning assumptions.” Peer questions highlighted the need for anonymity and low-effort interaction when a student feels overwhelmed.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Inspired the multi-pathway structure of SafeSense—recognising that different students need different entry doors (private logging vs. guided prompts vs. peer rooms vs. human counselling).</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: 5 Brainstorming Principles & Process -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Five Brainstorming Principles &amp; Pitch-Question-Build Loop</h4>
+              <span>Creative Exploration Framework</span>
+            </div>
+            <div class="creativity-grid">
+              <div class="c-pillar">
+                <span class="c-num">01</span>
+                <strong>Defer Judgement</strong>
+                <p>Separate generation from evaluation; critique ideas, never teammates.</p>
+              </div>
+              <div class="c-pillar">
+                <span class="c-num">02</span>
+                <strong>Encourage Unusual Ideas</strong>
+                <p>Welcome playful, low-tech, or unconventional campus support concepts.</p>
+              </div>
+              <div class="c-pillar">
+                <span class="c-num">03</span>
+                <strong>Build on Others’ Ideas</strong>
+                <p>Extend a teammate’s seed concept rather than replacing it.</p>
+              </div>
+              <div class="c-pillar">
+                <span class="c-num">04</span>
+                <strong>Generate Multiple Possibilities</strong>
+                <p>Prioritise quantity and breadth under time constraints before narrowing.</p>
+              </div>
+              <div class="c-pillar">
+                <span class="c-num">05</span>
+                <strong>Constructive Feedback</strong>
+                <p>Use open prompts (“Have you considered…?”) to strengthen user value.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 2: UNDERSTAND — ACTIVITIES 04–08
+    ====================================================================== -->
+    <section id="chapter-understand" class="chapter-section section-pad bg-tint">
+      <div class="container">
+        <div class="chapter-banner reveal">
+          <span class="chapter-kicker">Chapter 02 · Empathy &amp; Systems Mapping</span>
+          <h2>Understand — Activities 04 to 08</h2>
+          <p>Mapping the problem ecosystem, modelling a representative student persona, analysing campus stakeholders, charting dual user/decision-maker journeys, and auditing interview evidence honestly.</p>
+        </div>
+
+        <!-- ACTIVITY 04: MIND MAPPING -->
+        <article id="activity-04" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 04</span>
+            <h3>Mind Mapping</h3>
+            <span class="act-status">Completed · Holistic Problem-Solution Map</span>
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“Explore Your Product Through the User’s Eyes.” Build a structured visual mind map radiating from the central concept into user context, problems, needs, expectations, features, benefits, and challenges.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We mapped seven interconnected branches around SafeSense—connecting campus triggers (exams, placements, hostel life) to emotional needs, desired user experience, candidate features, potential benefits, and real-world risks.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>A mind map prevents feature creep by forcing every proposed capability (like mood check-ins or peer spaces) to trace back to an explicit student need and forward to an ethical or operational challenge.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Surfaced three key insights: (1) low-effort interaction is essential during high stress, (2) privacy trust determines adoption, and (3) unmoderated peer spaces carry safety risks that require careful design.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Directly shaped the persona attributes in Activity 05 and established the privacy and moderation boundaries examined in Stakeholder Analysis (Activity 06).</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Detailed Interactive/Readable Mind Map -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — SafeSense Seven-Branch Mind Map</h4>
+              <span>Click any branch to highlight connections</span>
+            </div>
+            <div class="mindmap-wrapper" id="mindmapWrapper">
+              <div class="mm-center">
+                <span class="mm-kicker">Central Concept</span>
+                <strong>SafeSense</strong>
+                <small>Student Wellbeing &amp; Reflection Space</small>
+              </div>
+              <div class="mm-branches">
+                <div class="mm-branch b-sage" tabindex="0">
+                  <h5>01 · Student Context</h5>
+                  <ul>
+                    <li>Undergraduate campus &amp; hostel life</li>
+                    <li>Semester exams &amp; placement cycles</li>
+                    <li>Living away from family support</li>
+                    <li>Late-night irregular sleep schedules</li>
+                  </ul>
+                </div>
+                <div class="mm-branch b-peach" tabindex="0">
+                  <h5>02 · Emotional Challenges</h5>
+                  <ul>
+                    <li>Academic anxiety &amp; performance fear</li>
+                    <li>Loneliness &amp; social comparison</li>
+                    <li>Difficulty naming what feels wrong</li>
+                    <li>Stigma around visiting counselling</li>
+                  </ul>
+                </div>
+                <div class="mm-branch b-mint" tabindex="0">
+                  <h5>03 · User Needs</h5>
+                  <ul>
+                    <li>Judgement-free private reflection</li>
+                    <li>Quick 30-second emotional check-in</li>
+                    <li>Gentle prompts when words fail</li>
+                    <li>Clear, optional path to human help</li>
+                  </ul>
+                </div>
+                <div class="mm-branch b-lavender" tabindex="0">
+                  <h5>04 · Expectations</h5>
+                  <ul>
+                    <li>Complete control over personal data</li>
+                    <li>Zero academic penalty or exposure</li>
+                    <li>Warm, calm, non-clinical tone</li>
+                    <li>Instant mobile browser access</li>
+                  </ul>
+                </div>
+                <div class="mm-branch b-sage" tabindex="0">
+                  <h5>05 · Possible Features</h5>
+                  <ul>
+                    <li>5-level daily mood &amp; tag check-in</li>
+                    <li>Weekly visual mood trend &amp; streak</li>
+                    <li>“Sense” guided reflection prompts</li>
+                    <li>“Together” topic rooms &amp; Counsellor form</li>
+                  </ul>
+                </div>
+                <div class="mm-branch b-mint" tabindex="0">
+                  <h5>06 · Intended Benefits</h5>
+                  <ul>
+                    <li>Earlier self-awareness of stress dips</li>
+                    <li>Reduced isolation via shared themes</li>
+                    <li>Warmer, lower-barrier help seeking</li>
+                    <li>De-identified campus trend visibility</li>
+                  </ul>
+                </div>
+                <div class="mm-branch b-peach" tabindex="0">
+                  <h5>07 · Challenges &amp; Risks</h5>
+                  <ul>
+                    <li>Not a substitute for clinical care</li>
+                    <li>Moderation needed in peer rooms</li>
+                    <li>Requires real counselling coordination</li>
+                    <li>Sustaining habit beyond exam weeks</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ACTIVITY 05: PERSONA MAPPING -->
+        <article id="activity-05" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 05</span>
+            <h3>Persona Mapping</h3>
+            <span class="act-status">Completed · Composite Design Persona</span>
+          </div>
+
+          <div class="honesty-banner">
+            <strong>Transparency Label:</strong> The profile below is a <strong>composite design persona</strong> synthesised from our team’s problem framing and campus observations to guide design decisions. It does <em>not</em> represent a single interviewed individual.
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>Create a representative user persona grounded in the target segment—capturing background, goals, needs, motivations, behaviours, frustrations, and design opportunities to anchor empathy and journey mapping.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We constructed “Aarohi Nair” (composite 2nd-year engineering hosteller) to embody the everyday intersection of academic pressure, social masking, and hesitation toward formal counselling.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Designing for “all college students” leads to generic dashboards. A concrete composite persona keeps every screen focused on a student who is functional on the outside yet quietly overwhelmed at night.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Clarified that our primary user is rarely in an acute crisis when opening an app—they are usually in a grey zone of mild-to-moderate distress where friction determines whether they reflect or suppress.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Served directly as the protagonist for User Journey Map A (Activity 07) and motivated the one-tap concern tags (“Exams”, “Sleep”, “Homesick”) in the Home check-in screen.</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Composite Persona Sheet -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Composite Student Persona Sheet</h4>
+              <span>Composite Design Model (Not a Real Interview Subject)</span>
+            </div>
+            <div class="persona-sheet">
+              <div class="persona-sidebar">
+                <div class="persona-avatar" aria-hidden="true">AN</div>
+                <span class="composite-pill">Composite Design Persona</span>
+                <h4>Aarohi Nair, 19</h4>
+                <p class="p-role">2nd-Year B.Tech Student · Campus Hostel Resident</p>
+                <div class="p-meta">
+                  <div><strong>Context:</strong> Lives away from home; balances lab deadlines, mid-semester exams, and peer expectations.</div>
+                  <div><strong>Tech Comfort:</strong> High smartphone &amp; web usage; prefers lightweight mobile browser tools over heavy downloads.</div>
+                </div>
+              </div>
+
+              <div class="persona-main">
+                <div class="p-quad">
+                  <h5>Goals &amp; Motivations</h5>
+                  <ul>
+                    <li>Stay on top of coursework without burning out silently.</li>
+                    <li>Understand why certain weeks feel emotionally heavier.</li>
+                    <li>Feel reassured that peers experience similar stress.</li>
+                  </ul>
+                </div>
+                <div class="p-quad">
+                  <h5>Core Needs</h5>
+                  <ul>
+                    <li>A private, non-judgemental space to check in for under a minute.</li>
+                    <li>Gentle prompts when she feels “off” but cannot explain why.</li>
+                    <li>Assurance that her notes will never be shared with faculty or parents.</li>
+                  </ul>
+                </div>
+                <div class="p-quad">
+                  <h5>Current Behaviours</h5>
+                  <ul>
+                    <li>Scrolls social media late at night when unable to sleep.</li>
+                    <li>Tells friends “I’m just tired” instead of admitting anxiety.</li>
+                    <li>Searches vague advice online rather than booking counselling.</li>
+                  </ul>
+                </div>
+                <div class="p-quad">
+                  <h5>Frustrations &amp; Barriers to Seeking Help</h5>
+                  <ul>
+                    <li>Fears being labelled “weak” or overreacting if she visits a counsellor.</li>
+                    <li>Intimidated by formal appointment forms and unfamiliar clinical terms.</li>
+                    <li>Worries about confidentiality within an institutional setting.</li>
+                  </ul>
+                </div>
+                <div class="p-opps">
+                  <strong>Design Opportunities:</strong> Offer a 5-point visual check-in + concern tags (Home), pattern feedback (Mood), low-pressure reflection prompts (Sense), anonymous topic rooms (Together), and a consent-controlled support request form (Counsellor).
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ACTIVITY 06: STAKEHOLDER ANALYSIS -->
+        <article id="activity-06" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 06</span>
+            <h3>Stakeholder Analysis</h3>
+            <span class="act-status">Completed · Ecosystem &amp; Mendelow Matrix</span>
+          </div>
+
+          <div class="honesty-banner">
+            <strong>Institutional Status Note:</strong> This stakeholder analysis models the campus ecosystem around SafeSense. Neither SRMIST administration nor the college counselling committee has officially adopted, approved, or integrated SafeSense.
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“Who Matters to Your Product?” Identify primary and secondary stakeholders across the ecosystem, classify their power and interest using Mendelow’s 2×2 Matrix, and define tailored engagement strategies.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We analysed five core stakeholder groups: Students, College Counselling Committee, College Administration, Faculty/Academic Advisors, and Peer/Student Support Networks, mapping their relationships and governance boundaries.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>A student wellbeing tool fails if it ignores institutional realities: counsellors need manageable, consensual workflows, while administration needs aggregate insight without violating student privacy.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Identified a critical design tension: students have high interest and personal adoption power, whereas administration and the counselling committee hold institutional decision power—requiring a dual-value architecture.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Guided our selection of the two perspectives for Journey Mapping (Activity 07): the Student (end user) and the Institutional Decision-Maker (High Power / High Interest), and shaped our Business Model Canvas (Activity 13).</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Concentric Map + Mendelow Matrix + Table -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Stakeholder Ecosystem &amp; Mendelow Power–Interest Matrix</h4>
+              <span>Primary vs. Secondary Classification &amp; Engagement Strategy</span>
+            </div>
+
+            <div class="stakeholder-layout">
+              <!-- Concentric SVG Map -->
+              <div class="sh-map-box">
+                <svg viewBox="0 0 360 320" class="diagram-svg" role="img" aria-label="Concentric Stakeholder Map for SafeSense">
+                  <circle cx="180" cy="160" r="145" fill="#F4F1FA" stroke="#B6A8CE" stroke-dasharray="4 3"/>
+                  <text x="180" y="32" text-anchor="middle" font-size="10" font-weight="700" fill="#5A4A75">SECONDARY / INSTITUTIONAL LAYER</text>
+
+                  <circle cx="180" cy="160" r="98" fill="#EBF3EE" stroke="#6E9B84"/>
+                  <text x="180" y="78" text-anchor="middle" font-size="10" font-weight="700" fill="#234234">PRIMARY SUPPORT LAYER</text>
+
+                  <circle cx="180" cy="160" r="48" fill="#234234"/>
+                  <text x="180" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#FAF7F2">SafeSense</text>
+                  <text x="180" y="172" text-anchor="middle" font-size="9.5" fill="#CBE0D3">Core Concept</text>
+
+                  <!-- Nodes -->
+                  <rect x="115" y="92" width="130" height="26" rx="13" fill="#FFFFFF" stroke="#234234"/>
+                  <text x="180" y="109" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1B2B23">Students (Primary Users)</text>
+
+                  <rect x="92" y="205" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#234234"/>
+                  <text x="180" y="222" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1B2B23">College Counselling Committee</text>
+
+                  <rect x="16" y="147" width="102" height="26" rx="13" fill="#FFFFFF" stroke="#8C7AA9"/>
+                  <text x="67" y="164" text-anchor="middle" font-size="10" font-weight="600" fill="#3B2E52">Administration</text>
+
+                  <rect x="242" y="147" width="102" height="26" rx="13" fill="#FFFFFF" stroke="#8C7AA9"/>
+                  <text x="293" y="164" text-anchor="middle" font-size="10" font-weight="600" fill="#3B2E52">Faculty Advisors</text>
+
+                  <rect x="95" y="268" width="170" height="26" rx="13" fill="#FFFFFF" stroke="#8C7AA9"/>
+                  <text x="180" y="285" text-anchor="middle" font-size="10" font-weight="600" fill="#3B2E52">Student Support Networks</text>
+                </svg>
+              </div>
+
+              <!-- Mendelow 2x2 Matrix -->
+              <div class="mendelow-grid">
+                <div class="m-quad q-satisfied">
+                  <span class="m-tag">High Power · Moderate/Low Day-to-Day Interest</span>
+                  <h5>Keep Satisfied</h5>
+                  <p><strong>College Administration &amp; Deans</strong></p>
+                  <small>Strategy: Provide clear governance assurances, data-privacy compliance, and aggregate-only wellbeing insights without operational burden.</small>
+                </div>
+                <div class="m-quad q-key">
+                  <span class="m-tag">High Power · High Interest</span>
+                  <h5>Manage Closely (Key Players)</h5>
+                  <p><strong>College Counselling Committee &amp; Student Affairs Leadership</strong></p>
+                  <small>Strategy: Co-design consent-based referral workflows, safeguarding protocols, and realistic response expectations.</small>
+                </div>
+                <div class="m-quad q-monitor">
+                  <span class="m-tag">Low Power · Moderate/Low Direct Interest</span>
+                  <h5>Monitor &amp; Align</h5>
+                  <p><strong>Faculty &amp; Academic Mentors</strong></p>
+                  <small>Strategy: Equip with non-intrusive referral awareness so faculty can signpost SafeSense during high-stress academic periods.</small>
+                </div>
+                <div class="m-quad q-informed">
+                  <span class="m-tag">Low Institutional Power · High Personal Interest</span>
+                  <h5>Keep Informed &amp; Co-Create</h5>
+                  <p><strong>Students (Primary Users) &amp; Peer Support Networks</strong></p>
+                  <small>Strategy: Prioritise usability, strict privacy control, stigma-free language, and peer feedback loops.</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-scroll">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Stakeholder Group</th>
+                    <th>Classification</th>
+                    <th>Role &amp; Interest in SafeSense</th>
+                    <th>Engagement Strategy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Students</strong></td>
+                    <td>Primary End Users</td>
+                    <td>Check in daily, reflect via Sense, connect in Together, and optionally request counselling.</td>
+                    <td>Design for low friction, emotional safety, and explicit user control over all personal entries.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>College Counselling Committee</strong></td>
+                    <td>Primary Service Partner (Proposed)</td>
+                    <td>Receives voluntary support requests when students explicitly consent to outreach.</td>
+                    <td>Validate triage workflows, ethical boundaries, and crisis escalation disclaimers before any pilot.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>College Administration</strong></td>
+                    <td>Secondary / Institutional Decision-Maker</td>
+                    <td>Evaluates campus wellbeing initiatives, policy compliance, and aggregate student trends.</td>
+                    <td>Guarantee zero access to private student journals; share only anonymised macro trends.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Faculty</strong></td>
+                    <td>Secondary Influencer</td>
+                    <td>Observes academic stress firsthand; needs safe, non-clinical ways to signpost support.</td>
+                    <td>Provide awareness materials without granting faculty access to student wellbeing data.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Student Support Networks</strong></td>
+                    <td>Secondary Community Partner</td>
+                    <td>Peer clubs and student wellness volunteers fostering campus belonging and awareness.</td>
+                    <td>Collaborate on onboarding campaigns and moderated peer-support norms.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </article>
+
+        <!-- ACTIVITY 07: JOURNEY MAPPING (TWO SEPARATE JOURNEY MAPS) -->
+        <article id="activity-07" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 07</span>
+            <h3>Journey Mapping (Dual Stakeholder Perspectives)</h3>
+            <span class="act-status">Completed · Two Distinct Journey Maps</span>
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“Walk in Their Shoes.” Select two stakeholders—(1) the primary user and (2) a high-power/high-interest decision-maker—and create two separate journey maps tracking actions, thoughts, feelings, pain points, and three concrete improvements for each.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We mapped two completely separate journeys: <strong>Journey A</strong> follows an overwhelmed student exploring SafeSense late at night; <strong>Journey B</strong> follows a College Counselling / Student Affairs decision-maker evaluating SafeSense for campus adoption.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Combining user and institutional journeys hides critical friction. Students worry about judgement and emotional effort, while decision-makers worry about privacy liability, safeguarding, and counsellor workload.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Uncovered six distinct design improvements—three lowering emotional friction for students and three strengthening consent transparency, crisis boundaries, and workflow clarity for campus leaders.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Motivated the persistent “Need help now?” button, explicit privacy reassurance (“Your check-ins stay private unless you choose to share them”), and structured conversation starters in our prototype.</p>
+            </div>
+          </div>
+
+          <!-- JOURNEY A: PRIMARY USER (COLLEGE STUDENT) -->
+          <div class="visual-panel journey-panel">
+            <div class="vp-header">
+              <h4>4A. Journey Map A — Primary User: Overwhelmed College Student</h4>
+              <span>Entry → Engage → Exit</span>
+            </div>
+
+            <!-- Emotional Curve SVG for Journey A -->
+            <svg viewBox="0 0 720 110" class="diagram-svg journey-curve" role="img" aria-label="Emotional trajectory curve for college student journey">
+              <line x1="40" y1="55" x2="680" y2="55" stroke="#D6D0C4" stroke-dasharray="4 4"/>
+              <text x="12" y="25" font-size="9.5" fill="#3D6B56" font-weight="600">+3 Calm</text>
+              <text x="12" y="58" font-size="9.5" fill="#6B7871">0 Neutral</text>
+              <text x="12" y="95" font-size="9.5" fill="#B85D43" font-weight="600">-3 Stressed</text>
+              <path d="M 90 88 C 160 88, 210 62, 280 50 C 350 38, 420 32, 490 36 C 550 40, 600 26, 650 24" fill="none" stroke="#234234" stroke-width="3"/>
+              <circle cx="90" cy="88" r="6" fill="#B85D43"/>
+              <text x="90" y="104" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">1. Entry (-3)</text>
+              <circle cx="280" cy="50" r="6" fill="#3D6B56"/>
+              <text x="280" y="40" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">2. Check-In (+0.5)</text>
+              <circle cx="470" cy="34" r="6" fill="#3D6B56"/>
+              <text x="470" y="23" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">3. Sense / Together (+2)</text>
+              <circle cx="650" cy="24" r="6" fill="#234234"/>
+              <text x="650" y="14" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">4. Exit (+3)</text>
+            </svg>
+
+            <div class="journey-stages-grid">
+              <div class="j-stage">
+                <span class="j-phase">Stage 01 · Entry</span>
+                <h5>Recognition &amp; Opening SafeSense</h5>
+                <p><strong>Actions:</strong> Feels overwhelmed after exams/late night; opens SafeSense web app from phone.</p>
+                <p><strong>Thoughts:</strong> “I feel heavy and exhausted, but I don’t know how to explain it or who to tell.”</p>
+                <p><strong>Feelings:</strong> Anxious, isolated, hesitant (-3).</p>
+                <div class="j-pain"><strong>Pain Point:</strong> Blank text boxes or clinical forms feel overwhelming when stressed.</div>
+              </div>
+
+              <div class="j-stage">
+                <span class="j-phase">Stage 02 · Engage (Reflect)</span>
+                <h5>Daily Check-In &amp; Sense Prompts</h5>
+                <p><strong>Actions:</strong> Selects “Low” mood, taps “Exams” &amp; “Sleep” tags, explores Mood trend and Sense starter prompts.</p>
+                <p><strong>Thoughts:</strong> “Okay, seeing my week laid out makes sense—I haven’t slept properly since Tuesday.”</p>
+                <p><strong>Feelings:</strong> Grounded, slightly relieved (+1).</p>
+                <div class="j-pain"><strong>Pain Point:</strong> Uncertainty about whether Sense is an AI therapist or a self-reflection guide.</div>
+              </div>
+
+              <div class="j-stage">
+                <span class="j-phase">Stage 03 · Engage (Connect)</span>
+                <h5>Exploring Together &amp; Support Choice</h5>
+                <p><strong>Actions:</strong> Browses “Exam stress” room in Together; views Counsellor option without pressure.</p>
+                <p><strong>Thoughts:</strong> “Other students deal with this too. If I want human help later, I control when to ask.”</p>
+                <p><strong>Feelings:</strong> Validated, less alone (+2).</p>
+                <div class="j-pain"><strong>Pain Point:</strong> Fear of losing anonymity or triggering unsolicited outreach.</div>
+              </div>
+
+              <div class="j-stage">
+                <span class="j-phase">Stage 04 · Exit</span>
+                <h5>Intentional Closure or Consent Request</h5>
+                <p><strong>Actions:</strong> Either saves reflection and closes calmly, or deliberately submits the Counsellor request form.</p>
+                <p><strong>Thoughts:</strong> “I took a small, manageable step today on my own terms.”</p>
+                <p><strong>Feelings:</strong> Supported, self-directed (+3).</p>
+                <div class="j-opp"><strong>Opportunities for Improvement:</strong> (1) One-tap emotion tags, (2) Clear “Not a therapist” boundary badge, (3) Visible privacy lock notice before submitting help requests.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- JOURNEY B: HIGH-POWER / HIGH-INTEREST STAKEHOLDER -->
+          <div class="visual-panel journey-panel stakeholder-journey">
+            <div class="vp-header">
+              <h4>4B. Journey Map B — High-Power / High-Interest Stakeholder: Campus Counselling &amp; Student Affairs Decision-Maker</h4>
+              <span>Entry → Engage → Exit (Separate Institutional Perspective)</span>
+            </div>
+
+            <!-- Emotional Curve SVG for Journey B -->
+            <svg viewBox="0 0 720 110" class="diagram-svg journey-curve" role="img" aria-label="Emotional trajectory curve for institutional decision-maker journey">
+              <line x1="40" y1="55" x2="680" y2="55" stroke="#D6D0C4" stroke-dasharray="4 4"/>
+              <text x="12" y="25" font-size="9.5" fill="#5A4A75" font-weight="600">+3 Assured</text>
+              <text x="12" y="58" font-size="9.5" fill="#6B7871">0 Cautious</text>
+              <text x="12" y="95" font-size="9.5" fill="#B85D43" font-weight="600">-3 Concerned</text>
+              <path d="M 90 52 C 160 55, 210 82, 280 80 C 350 78, 420 45, 490 38 C 550 32, 600 28, 650 26" fill="none" stroke="#5A4A75" stroke-width="3"/>
+              <circle cx="90" cy="52" r="6" fill="#5A4A75"/>
+              <text x="90" y="40" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">1. Entry (0)</text>
+              <circle cx="280" cy="80" r="6" fill="#B85D43"/>
+              <text x="280" y="98" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">2. Risk Audit (-2.5)</text>
+              <circle cx="490" cy="38" r="6" fill="#5A4A75"/>
+              <text x="490" y="26" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">3. Governance Review (+1.5)</text>
+              <circle cx="650" cy="26" r="6" fill="#234234"/>
+              <text x="650" y="15" text-anchor="middle" font-size="9.5" fill="#1B2B23" font-weight="600">4. Exit (+2.5)</text>
+            </svg>
+
+            <div class="journey-stages-grid">
+              <div class="j-stage">
+                <span class="j-phase">Stage 01 · Entry</span>
+                <h5>Initial Concept Review</h5>
+                <p><strong>Actions:</strong> Reviews student team’s SafeSense proposal and prototype demonstration.</p>
+                <p><strong>Thoughts:</strong> “Students clearly need earlier emotional support, but how does this fit campus realities?”</p>
+                <p><strong>Feelings:</strong> Interested yet cautious (0).</p>
+                <div class="j-pain"><strong>Concern:</strong> Unclear distinction between self-reflection software and clinical intervention.</div>
+              </div>
+
+              <div class="j-stage">
+                <span class="j-phase">Stage 02 · Engage (Safeguarding &amp; Privacy Audit)</span>
+                <h5>Evaluating Risks, Liability &amp; Workload</h5>
+                <p><strong>Actions:</strong> Examines data privacy, peer moderation in Together, crisis handling, and referral volume.</p>
+                <p><strong>Thoughts:</strong> “What happens if a student expresses severe distress at 2 AM? Will counsellors be flooded?”</p>
+                <p><strong>Feelings:</strong> Protective, concerned about safeguarding (-2.5).</p>
+                <div class="j-pain"><strong>Concern:</strong> Institutional liability, unmoderated peer posts, and lack of emergency triage.</div>
+              </div>
+
+              <div class="j-stage">
+                <span class="j-phase">Stage 03 · Engage (Architecture Alignment)</span>
+                <h5>Reviewing Consent &amp; Aggregation Boundaries</h5>
+                <p><strong>Actions:</strong> Inspects opt-in counsellor request flow and anonymised aggregate trend concept.</p>
+                <p><strong>Thoughts:</strong> “Keeping journals private while routing only consented requests respects both ethics and workflow.”</p>
+                <p><strong>Feelings:</strong> Reassured by clear boundaries (+1.5).</p>
+                <div class="j-pain"><strong>Concern:</strong> Requires formal IT security audit and human moderation staffing before live rollout.</div>
+              </div>
+
+              <div class="j-stage">
+                <span class="j-phase">Stage 04 · Exit</span>
+                <h5>Pilot Feasibility Decision</h5>
+                <p><strong>Actions:</strong> Recommends structured pilot validation with counselling team oversight and crisis helplines.</p>
+                <p><strong>Thoughts:</strong> “Promising early-awareness layer if paired with clear disclaimers and institutional SOPs.”</p>
+                <p><strong>Feelings:</strong> Constructively supportive (+2.5).</p>
+                <div class="j-opp"><strong>Opportunities for Improvement:</strong> (1) Prominent “Need help now?” crisis resource routing, (2) Explicit consent handoff protocol for counsellors, (3) Privacy-preserving aggregate reporting specification.</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ACTIVITY 08: EMPATHY MAPPING -->
+        <article id="activity-08" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 08</span>
+            <h3>Empathy Mapping</h3>
+            <span class="act-status">Completed with Evidence Audit · Hypotheses Clearly Separated</span>
+          </div>
+
+          <div class="honesty-banner warning-tone">
+            <strong>Strict Evidence &amp; Recording Disclosure:</strong> As part of our exploration, our team spoke with a <strong>Saudi school professor</strong> to gain an educator’s perspective on student stress. However, the available audio recording is approximately <strong>two minutes long and lacks the audio clarity required for reliable transcription</strong>. Accordingly:
+            <ul>
+              <li>No direct quotations or detailed findings are fabricated or attributed to the professor.</li>
+              <li>The interviewee is accurately identified as an external school educator—never as an SRM student or college counsellor.</li>
+              <li>The Empathy Map below explicitly separates <strong>verified interview context</strong> from <strong>design hypotheses</strong> that still require formal interviews with SRMIST students and counsellors.</li>
+            </ul>
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“Don’t Assume. Ask the User.” Conduct a real interview with consent, document observations across Says, Thinks, Does, and Feels, separate verified statements from team interpretations, and identify evidence-based improvements.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We recorded a ~2-minute exploratory conversation with a Saudi school professor regarding student academic stress, audited the recording quality honestly, and structured our Empathy Map to distinguish verified context from student-centred hypotheses.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>In academic and UX research, extrapolating unverified claims from an unclear 2-minute recording compromises credibility. Transparently labelling hypotheses protects project integrity and defines our exact next research plan.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Learned how crucial recording quality, open-ended questioning, and target-user alignment are—recognising that an external school educator cannot substitute for direct interviews with SRMIST students and campus counsellors.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Prevented us from claiming clinical or empirical validation in Activities 09–13, and established a concrete interview protocol for SRM students and counsellors in our future validation roadmap.</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: 4-Quadrant Empathy Map Framework + Future Interview Plan -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Empathy Map Framework (Verified Context vs. Design Hypotheses)</h4>
+              <span>Says · Thinks · Does · Feels</span>
+            </div>
+
+            <div class="empathy-verified-strip">
+              <span class="v-badge">Verified Interview Context</span>
+              <p>Exploratory ~2-minute educator interaction conducted with a Saudi school professor (external educator perspective). Recording clarity is insufficient for verbatim transcription; zero quotes or specific claims are attributed to the participant.</p>
+            </div>
+
+            <div class="empathy-grid">
+              <div class="emp-quad">
+                <div class="eq-head">
+                  <h5>SAYS</h5>
+                  <span class="hyp-tag">Hypothesis to Validate</span>
+                </div>
+                <p class="eq-note">No verbatim quotes recorded from the unclear 2-min educator audio. Student hypotheses to test:</p>
+                <ul>
+                  <li>“I’m just tired or busy with assignments” (masking emotional overwhelm).</li>
+                  <li>“I don’t really know how to explain what I’m feeling.”</li>
+                  <li>“Counselling feels like something only for severe emergencies.”</li>
+                </ul>
+              </div>
+
+              <div class="emp-quad">
+                <div class="eq-head">
+                  <h5>THINKS</h5>
+                  <span class="hyp-tag">Hypothesis to Validate</span>
+                </div>
+                <p class="eq-note">Inferred cognitive barriers requiring direct SRM student validation:</p>
+                <ul>
+                  <li>“Everyone else seems to be handling college life better than I am.”</li>
+                  <li>“If I open up formally, will people judge me or notify my family?”</li>
+                  <li>“I wish I could check in privately without committing to an appointment.”</li>
+                </ul>
+              </div>
+
+              <div class="emp-quad">
+                <div class="eq-head">
+                  <h5>DOES</h5>
+                  <span class="hyp-tag">Hypothesis to Validate</span>
+                </div>
+                <p class="eq-note">Observable campus patterns to verify through structured student sessions:</p>
+                <ul>
+                  <li>Delays seeking support during exam and placement pressure peaks.</li>
+                  <li>Withdraws into late-night screen scrolling or keeps feelings bottled up.</li>
+                  <li>Looks for quick, informal coping tips rather than formal institutional portals.</li>
+                </ul>
+              </div>
+
+              <div class="emp-quad">
+                <div class="eq-head">
+                  <h5>FEELS</h5>
+                  <span class="hyp-tag">Hypothesis to Validate</span>
+                </div>
+                <p class="eq-note">Hypothesised emotional states shaping SafeSense’s calm tone:</p>
+                <ul>
+                  <li>Overwhelmed by stacked academic deadlines and expectations.</li>
+                  <li>Lonely or disconnected even while surrounded by peers on campus.</li>
+                  <li>Hesitant and vulnerable when contemplating asking for help.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="next-interviews-box">
+              <h5>Required Follow-Up Interviews (Next Validation Step)</h5>
+              <div class="ni-grid">
+                <div>
+                  <strong>1. SRMIST Undergraduate Students (Hostellers &amp; Day Scholars)</strong>
+                  <p>Conduct 8–12 semi-structured, consented interviews across academic years to validate check-in frequency, privacy expectations, and comfort with Sense &amp; Together.</p>
+                </div>
+                <div>
+                  <strong>2. SRMIST Student Counselling Committee Members</strong>
+                  <p>Conduct structured workflow interviews to validate triage boundaries, consent handoff details, crisis escalation triggers, and realistic response capacity.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 3: DEFINE — ACTIVITY 09
+    ====================================================================== -->
+    <section id="chapter-define" class="chapter-section section-pad">
+      <div class="container">
+        <div class="chapter-banner reveal">
+          <span class="chapter-kicker">Chapter 03 · Scale &amp; Macro Context</span>
+          <h2>Define — Activity 09</h2>
+          <p>Structuring how problem scale, frequency, severity, and PESTEL trends are evaluated without fabricating unverified statistics.</p>
+        </div>
+
+        <!-- ACTIVITY 09: PROBLEM SIZING -->
+        <article id="activity-09" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 09</span>
+            <h3>Problem Sizing</h3>
+            <span class="act-status">Completed Methodology · Zero Fabricated Statistics</span>
+          </div>
+
+          <div class="honesty-banner">
+            <strong>Data Integrity Rule:</strong> Our team has not conducted a large-scale statistical survey at SRMIST. Therefore, <strong>no prevalence percentages, annual rupee estimates, or fabricated student survey counts</strong> are presented below. Instead, we present the exact Problem Sizing formula, qualitative severity/frequency framing, PESTEL boosters/setbacks, and the specific empirical inputs required for validation.
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“How Big Is the Problem, and Is It Worth Solving?” Use the Problem Sizing Template to define the target user segment, pain point, annual frequency, severity/impact, annual sizing formula, PESTEL boosters/setbacks, and explicit validation requirements.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We structured the complete sizing model for undergraduate students experiencing unaddressed academic and emotional stress, mapping recurring semester triggers and external PESTEL forces.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Even without institutional survey numbers, defining the exact variables—segment size ($N$), annual episodes ($F$), and impact per episode ($S$)—shows evaluators how the problem scales across recurring academic cycles.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Recognised that student emotional stress is cyclical rather than one-off—spiking around internal assessments, semester exams, and placement drives—making lightweight daily reflection far more relevant than annual workshops.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Informed our feature prioritisation in Activity 12 (Convergent Thinking) and helped define institutional value propositions in the Business Model Canvas (Activity 13).</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Problem Sizing Formula & PESTEL Framework -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Annual Problem-Sizing Formula &amp; PESTEL Trend Framework</h4>
+              <span>Methodology &amp; Validation Inputs Required</span>
+            </div>
+
+            <!-- Formula Bar -->
+            <div class="formula-box">
+              <div class="f-title">Annual Problem-Sizing Equation (Course Framework)</div>
+              <div class="f-equation">
+                <div class="f-term">
+                  <span class="f-var">User Segment (N)</span>
+                  <small>Number of enrolled college students experiencing unaddressed stress &amp; help-seeking hesitation</small>
+                  <span class="f-req">Data Needed: Institutional enrolment &amp; anonymised campus wellbeing survey</span>
+                </div>
+                <span class="f-op">×</span>
+                <div class="f-term">
+                  <span class="f-var">Frequency (F / yr)</span>
+                  <small>Recurring high-stress episodes per student per academic year (exams, deadlines, transitions)</small>
+                  <span class="f-req">Data Needed: Longitudinal self-report study across two semesters</span>
+                </div>
+                <span class="f-op">×</span>
+                <div class="f-term">
+                  <span class="f-var">Severity / Impact (S)</span>
+                  <small>Academic disruption, sleep loss, disengagement, or delayed counselling intervention cost</small>
+                  <span class="f-req">Data Needed: Student affairs &amp; counselling impact benchmarks</span>
+                </div>
+                <span class="f-op">=</span>
+                <div class="f-term result">
+                  <span class="f-var">Annual Problem Scale</span>
+                  <small>Total annual wellbeing impact requiring low-barrier early support</small>
+                  <span class="f-req">Status: Formula established; numerical inputs pending field study</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Qualitative Breakdown + PESTEL -->
+            <div class="ps-two-col">
+              <div class="ps-card">
+                <h5>Core Assumptions &amp; Validation Requirements</h5>
+                <ul class="clean-list">
+                  <li><strong>Target Segment:</strong> Full-time undergraduate students (especially first-year hostellers and pre-final/final-year placement cohorts).</li>
+                  <li><strong>Core Pain Point:</strong> Accumulation of unexpressed stress due to stigma and lack of a low-pressure reflection step.</li>
+                  <li><strong>Assumption 1 (Frequency):</strong> Stress spikes cluster around mid-semester exams, end-semester exams, and placement windows.</li>
+                  <li><strong>Assumption 2 (Severity):</strong> Unchecked emotional strain degrades sleep, focus, and willingness to seek timely human guidance.</li>
+                  <li><strong>Validation Requirement:</strong> Conduct IRB/faculty-approved anonymised baseline survey at SRMIST before publishing numerical prevalence claims.</li>
+                </ul>
+              </div>
+
+              <div class="ps-card">
+                <h5>PESTEL Analysis — Future Boosters &amp; Setbacks</h5>
+                <div class="pestel-list">
+                  <div class="p-row booster">
+                    <span class="p-badge">Booster · Social &amp; Academic</span>
+                    <p>Rising academic competition, placement pressure, and post-transition isolation increase demand for accessible student wellbeing tools.</p>
+                  </div>
+                  <div class="p-row booster">
+                    <span class="p-badge">Booster · Technological</span>
+                    <p>Ubiquitous smartphone browser access allows zero-install, low-friction daily check-ins on campus.</p>
+                  </div>
+                  <div class="p-row booster">
+                    <span class="p-badge">Booster · Political / Institutional</span>
+                    <p>Growing higher-education policy emphasis on student mental health and campus counselling infrastructure.</p>
+                  </div>
+                  <div class="p-row setback">
+                    <span class="p-badge">Setback · Legal &amp; Privacy</span>
+                    <p>Strict data-protection expectations (e.g., DPDP Act principles) require rigorous consent and encryption before handling sensitive student reflections.</p>
+                  </div>
+                  <div class="p-row setback">
+                    <span class="p-badge">Setback · Economical &amp; Operational</span>
+                    <p>Limited campus counselling staff capacity and peer-moderation costs can constrain institutional rollout if workflows are poorly scoped.</p>
+                  </div>
+                  <div class="p-row setback">
+                    <span class="p-badge">Setback · Environmental / Digital Fatigue</span>
+                    <p>Screen fatigue and notification overload may reduce long-term engagement if check-ins feel burdensome.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 4: EXPLORE & DECIDE — ACTIVITIES 11–12
+    ====================================================================== -->
+    <section id="chapter-explore" class="chapter-section section-pad bg-tint">
+      <div class="container">
+        <div class="chapter-banner reveal">
+          <span class="chapter-kicker">Chapter 04 · Ideation Breadth &amp; Structured Selection</span>
+          <h2>Explore &amp; Decide — Activities 11 &amp; 12</h2>
+          <p>Expanding solution possibilities through four divergent thinking techniques, then clustering and prioritising them into a coherent, safe student experience.</p>
+        </div>
+
+        <!-- ACTIVITY 11: DIVERGENT THINKING -->
+        <article id="activity-11" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 11</span>
+            <h3>Divergent Thinking</h3>
+            <span class="act-status">Completed · Four Ideation Methods</span>
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“From One Problem to Multiple Possibilities.” Apply all four divergent thinking tools—Brainstorming, Metaphor, Random Association, and Yes, And…—plus positive patterns and anti-patterns to expand solution alternatives.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We generated diverse feature concepts across all four methods—including daily mood check-ins, an AI chatbot concept, anonymous peer discussion, counsellor connection, a private personal journal, and moderated peer-support groups.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Using four distinct cognitive lenses prevents our team from settling on the first obvious app feature and surfaces anti-patterns (like surveillance or clinical overreach) that must be avoided.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Generated a broad pool of candidate modules while clearly distinguishing <strong>ideas explored</strong> (e.g., live external AI chatbot, live multi-user peer groups) from what was feasible and safe to implement in our first prototype.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Supplied the raw idea cards that were clustered and weighted during Convergent Thinking (Activity 12) to define the five spaces of the SafeSense prototype.</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: 4 Divergent Methods + Idea Pool Status -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Four Divergent Thinking Methods &amp; Explored Idea Pool</h4>
+              <span>Distinguishing Explored Concepts from Prototype Implementation</span>
+            </div>
+
+            <div class="div-methods-grid">
+              <div class="dm-card">
+                <span class="dm-num">Method 01</span>
+                <h5>Brainstorming</h5>
+                <p>Rapid, judgement-free listing of direct ways a student might log stress, reflect, or seek campus help.</p>
+                <div class="dm-yield"><strong>Ideas Generated:</strong> 5-emoji daily mood check-in, quick stressor tags, private reflection journal, direct counsellor request form.</div>
+              </div>
+
+              <div class="dm-card">
+                <span class="dm-num">Method 02</span>
+                <h5>Metaphor</h5>
+                <p>Compared emotional reflection to a <em>“weather barometer &amp; quiet campus bench”</em>—observing emotional climate without diagnosing storms.</p>
+                <div class="dm-yield"><strong>Ideas Generated:</strong> Weekly mood trend bar chart (“Mood” tab) and calm, non-clinical language across screens.</div>
+              </div>
+
+              <div class="dm-card">
+                <span class="dm-num">Method 03</span>
+                <h5>Random Association</h5>
+                <p>Used unrelated trigger words (<em>lighthouse, postcard, stepping stones</em>) to spark gentle connection mechanisms.</p>
+                <div class="dm-yield"><strong>Ideas Generated:</strong> Topic-based anonymous rooms (“Together”) and one-tap conversation starter chips (“I feel anxious”, “I can’t sleep”).</div>
+              </div>
+
+              <div class="dm-card">
+                <span class="dm-num">Method 04</span>
+                <h5>Yes, And…</h5>
+                <p>Built collaboratively on teammates’ ideas instead of blocking them with “Yes, but…” criticisms.</p>
+                <div class="dm-yield"><strong>Ideas Generated:</strong> “We can include a chat listener (Sense), <em>and</em> label it clearly as a friendly guide—not a therapist—<em>and</em> link to a human counsellor form.”</div>
+              </div>
+            </div>
+
+            <!-- Idea Pool Distinction Table -->
+            <div class="idea-status-block">
+              <h5>Audit of Team Ideas Explored vs. Current Prototype Status</h5>
+              <div class="idea-pills-grid">
+                <div class="idea-item impl">
+                  <span class="status-dot impl"></span>
+                  <div>
+                    <strong>Daily Mood Check-In &amp; Personal Journal</strong>
+                    <small>Implemented in Home &amp; Mood tabs (5 moods, tags, optional note, weekly chart).</small>
+                  </div>
+                </div>
+                <div class="idea-item partial">
+                  <span class="status-dot partial"></span>
+                  <div>
+                    <strong>Conversational Support (“AI Chatbot” Concept)</strong>
+                    <small>Explored as AI concept → Implemented as <em>Sense</em>, a built-in supportive conversation guide (not an external LLM/AI service).</small>
+                  </div>
+                </div>
+                <div class="idea-item partial">
+                  <span class="status-dot partial"></span>
+                  <div>
+                    <strong>Anonymous Discussion &amp; Peer-Support Groups</strong>
+                    <small>Explored as live community → Implemented as <em>Together</em> UI concept (posts are currently local/not shared live between students).</small>
+                  </div>
+                </div>
+                <div class="idea-item partial">
+                  <span class="status-dot partial"></span>
+                  <div>
+                    <strong>Counsellor Connection Pathway</strong>
+                    <small>Explored as campus referral → Implemented as <em>Counsellor</em> opt-in request form (stored locally in prototype; not yet connected to SRM counsellors).</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ACTIVITY 12: CONVERGENT THINKING -->
+        <article id="activity-12" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 12</span>
+            <h3>Convergent Thinking</h3>
+            <span class="act-status">Completed · Conceptual Reconstruction Labelled</span>
+          </div>
+
+          <div class="honesty-banner">
+            <strong>Academic Honesty Note:</strong> Because original physical sticky-note score sheets from class are not archived digitally, the prioritisation table below is transparently labelled as a <strong>conceptual reconstruction</strong> illustrating how our team applied Affinity Clustering and the 10gm–100gm–1000gm technique across Feasibility, User Value, and Safety. No fabricated voting tallies are claimed.
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>Organise divergent ideas using Affinity Clustering, prioritise them via the 10gm–100gm–1000gm exponential weighting method, evaluate feasibility, user value, and safety, and converge on a cohesive solution.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We grouped related ideas into four functional clusters—Self-Awareness, Guided Expression, Peer Belonging, and Human Escalation—and weighed them against student safety and semester build feasibility.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>In student wellbeing, high user appeal must never override safety. Filtering ideas through Safety + Feasibility prevented us from shipping an unmoderated live forum or unvalidated clinical AI.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Converged on an integrated five-tab web experience (Home, Mood, Sense, Together, Counsellor) that guides a student smoothly from private check-in to optional human support.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Provided the exact blueprint for Activity 10 (Prototyping), determining which screens were built as functional front-end flows and which capabilities required clear prototype boundaries.</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Affinity Clustering + 10gm-100gm-1000gm Reconstruction -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Affinity Clustering &amp; 10gm–100gm–1000gm Prioritisation (Conceptual Reconstruction)</h4>
+              <span>Evaluating User Value, Feasibility &amp; Student Safety</span>
+            </div>
+
+            <div class="conv-clusters">
+              <div class="cc-card">
+                <span class="weight-pill w-1000">1000gm · Core Priority</span>
+                <h5>Cluster A: Private Self-Reflection</h5>
+                <p>Daily 5-mood check-in, concern tags, optional journal note, and weekly mood bar chart.</p>
+                <small><strong>Why 1000gm:</strong> Highest user value, zero privacy risk, immediately feasible in browser.</small>
+              </div>
+              <div class="cc-card">
+                <span class="weight-pill w-1000">1000gm · Core Priority</span>
+                <h5>Cluster B: Low-Pressure Expression &amp; Handoff</h5>
+                <p>Built-in “Sense” conversation prompts + explicit opt-in “Counsellor” request pathway + “Need help now?” button.</p>
+                <small><strong>Why 1000gm:</strong> Bridges the gap between silence and seeking human support safely.</small>
+              </div>
+              <div class="cc-card">
+                <span class="weight-pill w-100">100gm · Concept Demo</span>
+                <h5>Cluster C: Peer Belonging (“Together”)</h5>
+                <p>Topic-based anonymous student rooms (Exam stress, Sleep &amp; routine, Making friends, Feeling homesick).</p>
+                <small><strong>Why 100gm:</strong> Strong emotional value, but live multi-user posting deferred due to moderation &amp; safety requirements.</small>
+              </div>
+              <div class="cc-card">
+                <span class="weight-pill w-10">10gm · Deferred / Excluded</span>
+                <h5>Cluster D: Clinical AI &amp; Biometric Tracking</h5>
+                <p>External generative AI diagnosis, wearable stress sensors, and automated faculty alerts.</p>
+                <small><strong>Why 10gm:</strong> Excluded due to clinical safety risks, privacy concerns, and hardware/integration complexity.</small>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 5: BUILD — ACTIVITY 10
+    ====================================================================== -->
+    <section id="chapter-build" class="chapter-section section-pad">
+      <div class="container">
+        <div class="chapter-banner reveal">
+          <span class="chapter-kicker">Chapter 05 · Tangible Execution &amp; Honest Evaluation</span>
+          <h2>Build — Activity 10 (Prototyping)</h2>
+          <p>Our strongest completed semester deliverable: a working, browser-based software prototype translating student emotional needs into five clear, navigable spaces.</p>
+        </div>
+
+        <!-- ACTIVITY 10: PROTOTYPING -->
+        <article id="activity-10" class="activity-card featured-activity reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 10</span>
+            <h3>Prototyping — First Functional Software Prototype</h3>
+            <span class="act-status strong">Strongest Completed Deliverable · Live on Netlify</span>
+          </div>
+
+          <!-- Prominent Live Prototype Banner -->
+          <div class="prototype-launch-banner">
+            <div class="plb-text">
+              <span class="plb-kicker">Working Browser-Based Software Prototype</span>
+              <h4>Explore the Live SafeSense Application</h4>
+              <p>Built as a mobile-oriented web application (no sensors or dedicated hardware). Hosted externally on Netlify and preserved unmodified.</p>
+            </div>
+            <a href="https://safesense-app-refinement.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+              Open SafeSense Prototype ↗
+            </a>
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>Follow the 9-step First Functional Prototype Development framework: collaborate as a 9-member team, revisit problem-to-feature alignment, define system architecture, build a working software/hardware prototype, demonstrate live actions, document limitations, and plan iterations.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We designed, built, and deployed a browser-based mobile-first web prototype on Netlify featuring five integrated navigation spaces—<strong>Home, Mood, Sense, Together, and Counsellor</strong>—plus a persistent “Need help now?” header action.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>A browser-based prototype requires zero app-store installation, works across students’ phones and laptops, and follows the “just enough, build to learn” prototyping mindset without hardware barriers.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Delivered a cohesive, demonstrable prototype with clear visual hierarchy, consistent bottom-tab navigation, and explicit scope boundaries—ready for structured student usability testing.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Revealed the exact operational, moderation, and institutional coordination requirements modelled in our Business Model Canvas (Activity 13) and future validation plan.</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Architecture + Feature-to-Need Mapping + 5 Spaces + Storyboard + Demo + Limitations -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Prototype Architecture, Feature-to-Need Mapping &amp; Interface Overview</h4>
+              <span>Browser-Based Web Application · Five Main Spaces</span>
+            </div>
+
+            <!-- Feature-to-User-Need Mapping -->
+            <div class="need-map-section">
+              <h5>Feature-to-User-Need Alignment</h5>
+              <div class="need-map-grid">
+                <div class="nm-pair">
+                  <span class="nm-need">Feeling overwhelmed</span>
+                  <span class="nm-arrow">→</span>
+                  <span class="nm-feat"><strong>Home &amp; Mood:</strong> Simple daily mood check-in &amp; weekly reflection</span>
+                </div>
+                <div class="nm-pair">
+                  <span class="nm-need">Unsure what to say</span>
+                  <span class="nm-arrow">→</span>
+                  <span class="nm-feat"><strong>Sense:</strong> Supportive conversation starters &amp; guided prompts</span>
+                </div>
+                <div class="nm-pair">
+                  <span class="nm-need">Feeling alone</span>
+                  <span class="nm-arrow">→</span>
+                  <span class="nm-feat"><strong>Together:</strong> Anonymous topic-based student community concept</span>
+                </div>
+                <div class="nm-pair">
+                  <span class="nm-need">Hesitant to seek help</span>
+                  <span class="nm-arrow">→</span>
+                  <span class="nm-feat"><strong>Counsellor:</strong> Low-pressure, consent-driven human support pathway</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- System Architecture Diagram (SVG) -->
+            <div class="arch-box">
+              <h5>System Architecture &amp; User Flow Diagram</h5>
+              <svg viewBox="0 0 760 190" class="diagram-svg" role="img" aria-label="SafeSense browser prototype architecture diagram">
+                <!-- Student -->
+                <rect x="14" y="45" width="120" height="96" rx="14" fill="#234234"/>
+                <text x="74" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#FAF7F2">Student User</text>
+                <text x="74" y="102" text-anchor="middle" font-size="9.5" fill="#CBE0D3">Mobile / Desktop</text>
+                <text x="74" y="116" text-anchor="middle" font-size="9.5" fill="#CBE0D3">Web Browser</text>
+
+                <line x1="134" y1="93" x2="174" y2="93" stroke="#234234" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+                <!-- UI Shell -->
+                <rect x="178" y="24" width="165" height="138" rx="14" fill="#EBF3EE" stroke="#3D6B56" stroke-width="1.5"/>
+                <text x="260" y="46" text-anchor="middle" font-size="10.5" font-weight="700" fill="#234234">UI &amp; Navigation Shell</text>
+                <rect x="192" y="56" width="137" height="26" rx="8" fill="#B85D43"/>
+                <text x="260" y="73" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">Header: Need help now?</text>
+                <rect x="192" y="90" width="137" height="58" rx="8" fill="#FFFFFF" stroke="#B7CEBF"/>
+                <text x="260" y="110" text-anchor="middle" font-size="10" font-weight="600" fill="#1B2B23">5-Tab Bottom Bar</text>
+                <text x="260" y="125" text-anchor="middle" font-size="9" fill="#4E5D55">Home · Mood · Sense</text>
+                <text x="260" y="138" text-anchor="middle" font-size="9" fill="#4E5D55">Together · Counsellor</text>
+
+                <line x1="343" y1="93" x2="383" y2="93" stroke="#234234" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+                <!-- Core Interactive Modules -->
+                <rect x="387" y="16" width="205" height="154" rx="14" fill="#FFFFFF" stroke="#234234" stroke-width="1.5"/>
+                <text x="489" y="38" text-anchor="middle" font-size="10.5" font-weight="700" fill="#234234">Client-Side Prototype Modules</text>
+                <text x="402" y="58" font-size="9.8" fill="#1B2B23">• <strong>Home:</strong> 5 moods + 8 concern tags</text>
+                <text x="402" y="77" font-size="9.8" fill="#1B2B23">• <strong>Mood:</strong> Weekly bar chart &amp; streak</text>
+                <text x="402" y="96" font-size="9.8" fill="#1B2B23">• <strong>Sense:</strong> Built-in starter prompts</text>
+                <text x="402" y="115" font-size="9.8" fill="#1B2B23">• <strong>Together:</strong> Topic rooms preview</text>
+                <text x="402" y="134" font-size="9.8" fill="#1B2B23">• <strong>Counsellor:</strong> Local opt-in form</text>
+                <text x="402" y="155" font-size="9" fill="#6B7871">Browser Local State · Hosted on Netlify</text>
+
+                <line x1="592" y1="93" x2="626" y2="93" stroke="#234234" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+                <!-- Outcome -->
+                <rect x="630" y="36" width="116" height="114" rx="14" fill="#F4F1FA" stroke="#8C7AA9" stroke-width="1.5"/>
+                <text x="688" y="66" text-anchor="middle" font-size="10.5" font-weight="700" fill="#3B2E52">Supportive</text>
+                <text x="688" y="81" text-anchor="middle" font-size="10.5" font-weight="700" fill="#3B2E52">Action</text>
+                <text x="688" y="102" text-anchor="middle" font-size="9.2" fill="#4E5D55">Self-reflection,</text>
+                <text x="688" y="115" text-anchor="middle" font-size="9.2" fill="#4E5D55">naming feelings,</text>
+                <text x="688" y="128" text-anchor="middle" font-size="9.2" fill="#4E5D55">or help request</text>
+              </svg>
+            </div>
+
+            <!-- Five Main Spaces Interface Overview -->
+            <div class="spaces-overview">
+              <h5>Interface Overview — The Five Prototype Spaces</h5>
+              <div class="spaces-grid">
+                <div class="space-card">
+                  <span class="sc-num">01 · Home</span>
+                  <h6>Daily Check-In &amp; Navigation</h6>
+                  <p>Greets the student with “How are you feeling right now?”, offers 5 mood options (Great, Good, Okay, Low, Rough), 8 concern tags (Exams, Sleep, Friends, Family, Placements, Health, Homesick, Money), and an optional reflection box.</p>
+                </div>
+                <div class="space-card">
+                  <span class="sc-num">02 · Mood</span>
+                  <h6>Weekly Reflection &amp; Trends</h6>
+                  <p>Visualises the student’s weekly mood pattern (Mon–Sun bar chart), check-in streak, most common concern tag (e.g., Sleep), and a gentle prompt to talk things through with Sense when midweek mood dips.</p>
+                </div>
+                <div class="space-card">
+                  <span class="sc-num">03 · Sense</span>
+                  <h6>Supportive Conversation Guide</h6>
+                  <p>Explicitly labelled “A friendly listener. Not a therapist.” Provides low-friction starter chips (“I feel anxious”, “I can’t sleep”, “I feel lonely”) and a text input to help students articulate thoughts.</p>
+                </div>
+                <div class="space-card">
+                  <span class="sc-num">04 · Together</span>
+                  <h6>Peer &amp; Community Concept</h6>
+                  <p>Presents topic-based student spaces (Exam stress, Sleep &amp; routine, Making friends, Feeling homesick) designed to reduce isolation through shared campus experiences.</p>
+                </div>
+                <div class="space-card">
+                  <span class="sc-num">05 · Counsellor</span>
+                  <h6>Opt-In Human Support Pathway</h6>
+                  <p>Allows students to enter their college name, select support type (e.g., Student Counselling Cell), and submit a connection request with the explicit assurance that check-ins stay private unless shared.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Storyboard & 5-Step Live Demo Sequence -->
+            <div class="story-demo-grid">
+              <div class="sd-box">
+                <h5>User Storyboard — From Quiet Stress to Supported Choice</h5>
+                <ol class="step-list">
+                  <li><strong>Scene 1 (Trigger):</strong> Late at night during exam week, a student feels anxious and unable to sleep, unsure how to explain what is wrong.</li>
+                  <li><strong>Scene 2 (Check-In):</strong> Opens SafeSense on mobile browser, taps “Low” + “Exams” + “Sleep” in under 20 seconds.</li>
+                  <li><strong>Scene 3 (Reflect &amp; Express):</strong> Checks the Mood tab, notices a midweek dip, and taps “Talk to Sense” using starter prompts.</li>
+                  <li><strong>Scene 4 (Decide):</strong> Explores Together topic rooms to feel less isolated, or opens the Counsellor tab to deliberately request human support.</li>
+                </ol>
+              </div>
+
+              <div class="sd-box">
+                <h5>5-Step Live Prototype Demo Sequence</h5>
+                <ol class="step-list">
+                  <li><strong>01 · Open:</strong> Launch <a href="https://safesense-app-refinement.netlify.app" target="_blank" rel="noopener noreferrer">safesense-app-refinement.netlify.app</a> and introduce the 5-tab navigation &amp; “Need help now?” button.</li>
+                  <li><strong>02 · Check In:</strong> Select a mood, tag a concern (e.g., Exams/Sleep), add an optional note, and save check-in.</li>
+                  <li><strong>03 · Review:</strong> Switch to <em>Mood</em> to show the weekly bar chart, streak indicator, and insight card.</li>
+                  <li><strong>04 · Express:</strong> Open <em>Sense</em> and demonstrate the built-in conversation starter prompts.</li>
+                  <li><strong>05 · Connect:</strong> Preview <em>Together</em> rooms and demonstrate the <em>Counsellor</em> opt-in request form while explaining local prototype scope.</li>
+                </ol>
+              </div>
+            </div>
+
+            <!-- CRITICAL PROTOTYPE LIMITATIONS & FUTURE IMPROVEMENTS -->
+            <div class="limitations-grid">
+              <div class="lim-card critical">
+                <h5>Honest Prototype Limitations (Mandatory Academic Disclosure)</h5>
+                <ul>
+                  <li><strong>Built-in Guide Only:</strong> <em>Sense</em> is a built-in supportive conversation guide—it is <strong>not</strong> connected to an external generative AI service.</li>
+                  <li><strong>Local Form Storage Only:</strong> Counselling requests are stored locally in the current browser prototype and are <strong>not</strong> transmitted to SRMIST counsellors.</li>
+                  <li><strong>Single-User Community Preview:</strong> <em>Together</em> posts and rooms are <strong>not</strong> currently shared live with other students.</li>
+                  <li><strong>Not Clinically Validated:</strong> SafeSense has not undergone clinical trials or formal psychological efficacy validation.</li>
+                  <li><strong>Not a Therapist or Crisis Service:</strong> It is not a diagnostic tool, medical device, or emergency/crisis intervention service.</li>
+                  <li><strong>No Live Institutional Integration:</strong> There is no confirmed live integration with SRMIST administration or counselling systems.</li>
+                </ul>
+              </div>
+
+              <div class="lim-card future">
+                <h5>Planned Future Improvements &amp; Validation Roadmap</h5>
+                <ul>
+                  <li><strong>Structured Student Usability Testing:</strong> Conduct task-based usability sessions with SRMIST students to measure clarity, comfort, and navigation ease.</li>
+                  <li><strong>Accessibility &amp; Readability Refinement:</strong> Audit colour contrast, screen-reader labels, and typography across low-end mobile devices.</li>
+                  <li><strong>Community Moderation &amp; Safety Controls:</strong> Design reporting tools, content guidelines, and trained peer/staff moderation before enabling multi-user Together posts.</li>
+                  <li><strong>Verified Institutional Counselling Workflow:</strong> Co-design secure backend routing, consent logs, and verified campus helpline directories with the counselling committee.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 6: SUSTAIN — ACTIVITY 13 (BUSINESS MODEL CANVAS)
+    ====================================================================== -->
+    <section id="chapter-sustain" class="chapter-section section-pad bg-tint">
+      <div class="container">
+        <div class="chapter-banner reveal">
+          <span class="chapter-kicker">Chapter 06 · Institutional Viability &amp; Governance</span>
+          <h2>Sustain — Activity 13 (Business Model Canvas)</h2>
+          <p>Framing how SafeSense could operate sustainably as a proposed institution-supported student wellbeing initiative—clearly separating proposed arrangements from confirmed partnerships.</p>
+        </div>
+
+        <!-- ACTIVITY 13: BUSINESS MODEL CANVAS -->
+        <article id="activity-13" class="activity-card reveal">
+          <div class="activity-head">
+            <span class="act-badge">ACTIVITY 13</span>
+            <h3>Business Model Canvas</h3>
+            <span class="act-status">Completed · All 9 BMC Blocks · Proposed Institutional Model</span>
+          </div>
+
+          <div class="honesty-banner">
+            <strong>Institutional Arrangement Clarification:</strong> All partnerships, campus licensing channels, and funding streams shown below represent a <strong>proposed conceptual model</strong> for how SafeSense could be sustained if piloted with a university. No commercial contracts, CSR grants, or SRMIST funding commitments currently exist.
+          </div>
+
+          <div class="six-point-grid">
+            <div class="sp-box">
+              <h4>1. Professor’s Task / Question</h4>
+              <p>“From Innovative Product to Sustainable Business Model.” Apply all nine blocks of the Business Model Canvas to explain how the solution creates, delivers, and captures value sustainably.</p>
+            </div>
+            <div class="sp-box">
+              <h4>2. What Our Team Explored &amp; Did</h4>
+              <p>We mapped all nine BMC blocks around a dual-sided campus model: free, stigma-free daily access for students paired with proposed institutional wellness sponsorship and aggregate trend value.</p>
+            </div>
+            <div class="sp-box">
+              <h4>3. Reasoning Behind Our Approach</h4>
+              <p>Charging distressed students out-of-pocket creates a financial barrier that contradicts SafeSense’s mission. Positioning SafeSense as an institution-supported student wellbeing initiative aligns incentives while keeping student data private.</p>
+            </div>
+            <div class="sp-box">
+              <h4>5. Outcome &amp; Learning</h4>
+              <p>Demonstrated how privacy governance, content curation, and counselling coordination represent core operational activities and cost drivers—not afterthoughts.</p>
+            </div>
+            <div class="sp-box full-span">
+              <h4>6. How It Influenced the Next Stage of SafeSense</h4>
+              <p>Provides the strategic foundation for future pitching, risk/scenario planning, and partnership discussions if the team pursues an institutional pilot beyond the course.</p>
+            </div>
+          </div>
+
+          <!-- 4. Visual Explanation: Complete 9-Block Business Model Canvas -->
+          <div class="visual-panel">
+            <div class="vp-header">
+              <h4>4. Visual Explanation — Complete 9-Block Business Model Canvas (Proposed Model)</h4>
+              <span>Value Creation · Value Delivery · Value Capture</span>
+            </div>
+
+            <div class="bmc-grid">
+              <!-- Key Partnerships -->
+              <div class="bmc-cell bmc-kp">
+                <span class="bmc-num">08 · Key Partnerships (Proposed)</span>
+                <h5>Key Partnerships</h5>
+                <ul>
+                  <li>University Counselling Cells &amp; Student Affairs Offices (proposed referral alignment)</li>
+                  <li>Student wellness clubs &amp; peer volunteers (proposed onboarding allies)</li>
+                  <li>Mental health educators &amp; crisis helpline directories</li>
+                  <li>Cloud hosting &amp; security infrastructure providers</li>
+                </ul>
+              </div>
+
+              <!-- Key Activities -->
+              <div class="bmc-cell bmc-ka">
+                <span class="bmc-num">07 · Key Activities</span>
+                <h5>Key Activities</h5>
+                <ul>
+                  <li>Privacy-preserving web platform engineering &amp; maintenance</li>
+                  <li>Curating supportive, non-clinical reflection prompts</li>
+                  <li>Community safety moderation (required before live Together launch)</li>
+                  <li>Campus onboarding &amp; counselling workflow coordination</li>
+                </ul>
+              </div>
+
+              <!-- Key Resources -->
+              <div class="bmc-cell bmc-kr">
+                <span class="bmc-num">06 · Key Resources</span>
+                <h5>Key Resources</h5>
+                <ul>
+                  <li>SafeSense web application &amp; UX design system</li>
+                  <li>Privacy &amp; consent governance architecture</li>
+                  <li>Validated prompt library &amp; campus resource directory</li>
+                  <li>Cross-functional student product &amp; design team</li>
+                </ul>
+              </div>
+
+              <!-- Value Propositions -->
+              <div class="bmc-cell bmc-vp">
+                <span class="bmc-num">02 · Value Propositions</span>
+                <h5>Value Propositions</h5>
+                <p><strong>For Students:</strong></p>
+                <ul>
+                  <li>Low-pressure, private daily emotional check-ins &amp; mood pattern visibility</li>
+                  <li>Gentle Sense prompts to put feelings into words without clinical stigma</li>
+                  <li>Opt-in, consent-controlled pathway to campus counselling</li>
+                </ul>
+                <p><strong>For Institution (Proposed):</strong></p>
+                <ul>
+                  <li>Earlier, warmer student engagement with support services</li>
+                  <li>Privacy-protected aggregate wellbeing trends (zero private journal exposure)</li>
+                </ul>
+              </div>
+
+              <!-- Customer Relationships -->
+              <div class="bmc-cell bmc-cr">
+                <span class="bmc-num">04 · Customer Relationships</span>
+                <h5>Customer Relationships</h5>
+                <ul>
+                  <li>Self-directed, private-by-default digital companion</li>
+                  <li>Warm, non-judgemental guided reflection</li>
+                  <li>Explicit opt-in bridge to human counsellors</li>
+                  <li>Consultative institutional partnership (proposed)</li>
+                </ul>
+              </div>
+
+              <!-- Channels -->
+              <div class="bmc-cell bmc-ch">
+                <span class="bmc-num">03 · Channels</span>
+                <h5>Channels</h5>
+                <ul>
+                  <li>Mobile &amp; desktop web browser (zero-install URL)</li>
+                  <li>Campus orientation, hostel notices &amp; QR posters (proposed)</li>
+                  <li>Student clubs &amp; faculty advisor signposting (proposed)</li>
+                  <li>Student Counselling Cell portal integration (proposed)</li>
+                </ul>
+              </div>
+
+              <!-- Customer Segments -->
+              <div class="bmc-cell bmc-cs">
+                <span class="bmc-num">01 · Customer Segments</span>
+                <h5>Customer Segments</h5>
+                <p><strong>Primary End Users:</strong></p>
+                <ul>
+                  <li>College &amp; university students (hostellers, first-years, exam/placement-stressed cohorts)</li>
+                </ul>
+                <p><strong>Institutional Beneficiaries / Sponsors (Proposed):</strong></p>
+                <ul>
+                  <li>University Student Affairs &amp; Counselling Committees</li>
+                  <li>Higher-education wellness initiatives</li>
+                </ul>
+              </div>
+
+              <!-- Cost Structure -->
+              <div class="bmc-cell bmc-cost">
+                <span class="bmc-num">09 · Cost Structure</span>
+                <h5>Cost Structure</h5>
+                <ul>
+                  <li>Secure cloud hosting, database encryption &amp; privacy compliance</li>
+                  <li>Front-end/back-end software engineering &amp; accessibility maintenance</li>
+                  <li>Content review &amp; community safety moderation operations</li>
+                  <li>Campus awareness campaigns &amp; usability research</li>
+                </ul>
+              </div>
+
+              <!-- Revenue Streams -->
+              <div class="bmc-cell bmc-rev">
+                <span class="bmc-num">05 · Revenue Streams (Proposed)</span>
+                <h5>Revenue Streams</h5>
+                <ul>
+                  <li><strong>Free for Students:</strong> Zero paywall for core check-in, reflection, and support routing</li>
+                  <li><strong>Proposed Institutional Sponsorship:</strong> Annual campus wellbeing license / Student Affairs budget allocation</li>
+                  <li><strong>Proposed Grants:</strong> Student innovation or educational wellbeing grants for pilot deployment</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         TEAM SECTION & FINAL REFLECTION
+    ====================================================================== -->
+    <section id="team" class="section-pad">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="chapter-tag">Project Team · SRMIST Kattankulathur</span>
+          <h2>Nine Members, One Shared Design Journey</h2>
+          <p>
+            Developed collaboratively across the semester for <strong>21DCS201P — Design Thinking and Methodology</strong>. Each member is listed with their exact register suffix as recorded in our project documentation, without fabricated individual role claims.
+          </p>
+        </div>
+
+        <div class="team-grid reveal">
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 02</span>
+            <h4>Aarav John</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 02</span>
+            <h4>Swetha Sudhir</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 19</span>
+            <h4>Mohammed Swalih Navas</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 36</span>
+            <h4>R E Tharika Krishna</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 43</span>
+            <h4>Mayuri Naveen</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 45</span>
+            <h4>Sharvesh Raju</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 48</span>
+            <h4>Asim Naveed</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 53</span>
+            <h4>Ruth Hazel Sahni</h4>
+          </div>
+          <div class="member-card">
+            <span class="m-reg">Reg. Suffix · 58</span>
+            <h4>Ashwin Panniyammakel Joban</h4>
+          </div>
+        </div>
+
+        <!-- Final Reflection & Conclusion -->
+        <div class="reflection-box reveal">
+          <div class="ref-content">
+            <span class="chapter-tag">Final Reflection &amp; Academic Conclusion</span>
+            <h3>What Design Thinking Taught Us About Designing for Student Wellbeing</h3>
+            <p>
+              Across all 13 activities, SafeSense evolved from a broad concern about student stress into a disciplined, human-centred software concept. The most important lesson of our semester was restraint: recognising that when designing around emotional wellbeing, <strong>trust, clarity, and honest boundaries matter more than technical complexity</strong>.
+            </p>
+            <p>
+              By separating private student reflection from consent-gated counselling requests and anonymised institutional trends, SafeSense respects both student autonomy and campus safeguarding realities. Our live browser prototype demonstrates the core check-in, reflection, and support-routing experience, while transparently documenting what remains to be validated—through structured SRMIST student usability testing, counselling committee workflow review, and ethical privacy governance—before any real-world deployment.
+            </p>
+            <div class="ref-actions">
+              <a href="https://safesense-app-refinement.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Visit Live SafeSense Prototype ↗
+              </a>
+              <a href="#top" class="btn btn-secondary">
+                Back to Top ↑
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>SafeSense — Design Thinking Portfolio</strong>
+        <p>SRM Institute of Science and Technology, Kattankulathur · Course 21DCS201P</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://safesense-app-refinement.netlify.app" target="_blank" rel="noopener noreferrer">Prototype (Netlify) ↗</a>
+        <a href="#chapter-discover">Activities 01–13</a>
+        <a href="#team">Team (9 Members)</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
